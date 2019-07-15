@@ -1,0 +1,41 @@
+1=> touch index.html
+2=> touch app.js
+3=> ( open file index.html and edit in the body )
+4=> git init
+//------------------------ setup for get -----------------------//
+5=> git config --global user.name 'your user name on github' 
+6=> git config --global user.email 'your email on github '
+//-------------------------------------------------------------//
+7=> git add index.html
+8=> git status
+9=> git add .       //add all files
+10=> ( open file index.html and edit in the body ) 
+11=> git add .
+12=> git status
+13=> git commit 
+14=> git status
+15=> ( open file app.js and edit in it)
+16=> git status
+17=> git add .
+18=> git commit -m 'changed app.js'
+19=> touch .gitignore
+20=> touch log.txt
+21=> (inside .gitignore you will write any file example log.txt)
+22=> git add .
+23=> git status
+24=> git branch login
+25=> git status
+26=> git commit -m 'another change'
+27=> git checkout login
+28=> touch login.html
+29=> git add .
+30=> git commit -m 'login form'
+31=> git checkout 'master'
+32=> git merge login
+33=> (make login on github website)
+34=> (create new repository with any name )
+35=> git remote
+36=> git remote add name of repository
+37=> git remote 
+38=> git push -u repository name
+
